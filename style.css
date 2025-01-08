@@ -1,0 +1,85 @@
+
+
+* {
+    font-family: "Lato", sans-serif
+} 
+
+
+
+body,
+header,
+img,
+#site-header,
+#navbar,
+ul,
+a {
+    margin: 0;
+    padding: 0;
+} /*tout le site sans marges ni padding*/
+
+
+
+#site-header{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color:#ef5350 ;
+}
+
+header{
+    height: 50px;
+    width: 90vw;
+    display: flex;
+    justify-content : space-between;
+}
+
+img{
+    width: 110px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 1em;
+    padding-left: 1em;
+
+}
+#navbar{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.bouton{
+    background-color:#ef5350 ;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 12px;
+    color: white;
+    font-weight:700;
+    cursor: pointer;
+}
+
+#conteneur{
+    width: 75vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Deux colonnes égales */
+    grid-gap: 15px; /* Espacement entre les éléments */    
+}
+
+.card-img {
+    margin: 10px 0;
+    height: 150px;
+}
+
+.card {
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    border-radius: 5px;
+}
+
